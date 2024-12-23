@@ -1,6 +1,6 @@
 void main() {
   List<int> fibonacciNumbers =
-      List.generate(20, (index) => fibonacci(index + 1));
+      List.generate(10, (index) => fibonacci(index + 1));
   List<String> flybyObjects =
       fibonacciNumbers.map((num) => "turn: $num").toList();
   //var result = fibonacci(20);
